@@ -13,7 +13,7 @@ pipeline {
         stage('Checkout Repository') {
             steps {
                 echo "📦 Checking out repository..."
-                git branch: 'main', url: 'https://github.com/Aisalkyn85/Jenkins-Zero-To-Hero.git'
+                git branch: 'main', url: 'https://github.com/Gulzza/Zero-To-Hero.git'
                 sh 'ls -R'
             }
         }
